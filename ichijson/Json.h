@@ -11,5 +11,7 @@
 
 #include "JsonSerializable.h"
 #include "JsonString.h"
+#include "JsonBool.h"
+#include "JsonNull.h"
 
 #endif

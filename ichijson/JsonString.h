@@ -25,9 +25,9 @@ namespace Json {
         ~String();
 
         virtual std::string serialize();
-        virtual void deserialize(std::string string);
+        virtual void deserialize(const std::string string);
 
-        std::string string;
+        std::string value;
     };
 
 }

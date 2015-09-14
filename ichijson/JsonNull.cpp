@@ -21,7 +21,7 @@ namespace Json {
         return retVal;
     }
 
-    void Null::deserialize(std::string string) {
+    void Null::deserialize(const std::string string) {
     }
 
 }

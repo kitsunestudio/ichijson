@@ -13,23 +13,23 @@
 namespace Json {
 
     String::String() {
-        this->string = "";
+        value = "";
     }
     String::String(const String &string) {
-        this->string = string.string;
+        value = string.value;
     }
     String::String(std::string string) {
-        this->string = string;
+        value = string;
     }
     String::String(const char *chars) {
-        this->string = chars;
+        value = chars;
     }
     String::~String() {
     }
 
     std::string String::serialize() {
         std::stringstream is, os;
-        is.str(this->string);
+        is.str(value);
         is.clear();
         os.str("");
         os.clear();
@@ -71,9 +71,10 @@ namespace Json {
         return os.str();
     }
 
-    void String::deserialize(std::string string) {
+    void String::deserialize(const std::string string) {
+        std::string newString = string;
         std::stringstream is, os;
-        is.str(Json::ltrim(string));
+        is.str(Json::ltrim(newString));
         is.clear();
         os.str("");
         os.clear();
@@ -120,7 +121,7 @@ namespace Json {
                 }
             }
         }
-        this->string = os.str();
+        value = os.str();
     }
 
 }

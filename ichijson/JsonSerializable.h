@@ -18,7 +18,7 @@ namespace Json {
     class Serializable {
     public:
         virtual std::string serialize() = 0;
-        virtual void deserialize(std::string string) = 0;
+        virtual void deserialize(const std::string string) = 0;
     };
 
     // trim from start
