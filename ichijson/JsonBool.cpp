@@ -7,6 +7,7 @@
 //
 
 #include "JsonBool.h"
+#include "JsonUtils.h"
 
 namespace Json {
 

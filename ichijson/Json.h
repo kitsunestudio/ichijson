@@ -13,5 +13,7 @@
 #include "JsonString.h"
 #include "JsonBool.h"
 #include "JsonNull.h"
+#include "JsonNull.h"
+#include "JsonNumber.h"
 
 #endif

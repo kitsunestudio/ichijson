@@ -16,6 +16,7 @@
 namespace Json {
 
     class Null : public Serializable {
+    public:
         Null();
         ~Null();
 

@@ -9,6 +9,7 @@
 #include "JsonString.h"
 
 #include <sstream>
+#include "JsonUtils.h"
 
 namespace Json {
 
@@ -74,7 +75,7 @@ namespace Json {
     void String::deserialize(const std::string string) {
         std::string newString = string;
         std::stringstream is, os;
-        is.str(Json::ltrim(newString));
+        is.str(Json::trim_left(newString));
         is.clear();
         os.str("");
         os.clear();

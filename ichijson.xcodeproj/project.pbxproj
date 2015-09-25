@@ -11,6 +11,7 @@
 		5471B7791BA6605C004F2CCD /* JsonString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5471B7771BA6605C004F2CCD /* JsonString.cpp */; };
 		5471B77D1BA682DE004F2CCD /* JsonNull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5471B77B1BA682DE004F2CCD /* JsonNull.cpp */; };
 		5471B7801BA6896F004F2CCD /* JsonBool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5471B77E1BA6896F004F2CCD /* JsonBool.cpp */; };
+		54FF2D6D1BA90ECD00F2F5F8 /* JsonNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54FF2D6B1BA90ECD00F2F5F8 /* JsonNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,9 @@
 		5471B77C1BA682DE004F2CCD /* JsonNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonNull.h; sourceTree = "<group>"; };
 		5471B77E1BA6896F004F2CCD /* JsonBool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JsonBool.cpp; sourceTree = "<group>"; };
 		5471B77F1BA6896F004F2CCD /* JsonBool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBool.h; sourceTree = "<group>"; };
+		54FF2D6A1BA7966000F2F5F8 /* JsonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonUtils.h; sourceTree = "<group>"; };
+		54FF2D6B1BA90ECD00F2F5F8 /* JsonNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JsonNumber.cpp; sourceTree = "<group>"; };
+		54FF2D6C1BA90ECD00F2F5F8 /* JsonNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonNumber.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				5471B76C1BA64D19004F2CCD /* main.cpp */,
+				54FF2D6B1BA90ECD00F2F5F8 /* JsonNumber.cpp */,
+				54FF2D6C1BA90ECD00F2F5F8 /* JsonNumber.h */,
 				5471B7741BA64D43004F2CCD /* JsonSerializable.h */,
 				5471B7771BA6605C004F2CCD /* JsonString.cpp */,
 				5471B7781BA6605C004F2CCD /* JsonString.h */,
@@ -77,6 +83,7 @@
 				5471B77A1BA662E4004F2CCD /* Json.h */,
 				5471B77E1BA6896F004F2CCD /* JsonBool.cpp */,
 				5471B77F1BA6896F004F2CCD /* JsonBool.h */,
+				54FF2D6A1BA7966000F2F5F8 /* JsonUtils.h */,
 			);
 			path = ichijson;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 				5471B7791BA6605C004F2CCD /* JsonString.cpp in Sources */,
 				5471B76D1BA64D19004F2CCD /* main.cpp in Sources */,
 				5471B77D1BA682DE004F2CCD /* JsonNull.cpp in Sources */,
+				54FF2D6D1BA90ECD00F2F5F8 /* JsonNumber.cpp in Sources */,
 				5471B7801BA6896F004F2CCD /* JsonBool.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +265,7 @@
 				5471B7721BA64D19004F2CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
